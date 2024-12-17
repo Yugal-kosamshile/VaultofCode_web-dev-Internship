@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.0;
+   background-color: #fcf1f8;
+    color: black;
+    margin: 0px;
+
+}
+header{
+    background-color: #FFCDEA;
+    margin: 0;
+    color: #4f1336;
+    text-align: center;
+}
+header h1{
+    font-size: 36px;
+}
+main{
+    margin: 20px;
+    padding: 20px;
+    background-image:url(https://images.unsplash.com/photo-1579547621115-c3a18faa2980?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxwb3J0Zm9saW8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 130px;
+    box-shadow:0 2px 5px rgba(0,0,0,0,1);
+}
+#about p{
+    width: 80%;
+    margin-left: 9%;
+}
+li{
+    margin-left: 9%;
+}
+section{
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fcf1f8; 
+    width: 95%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+section h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+a{
+    color: #ff59ba;
+    text-decoration: none;
+}
+h2{
+    margin-left: 7%;
+    color: #a34b7e;
+}
+h4{
+    margin-left: 8%;
+    color: #ba6d9a;
+}
+footer{
+        background-color:#FFCDEA ;
+        margin: 0;
+        color: #4f1336;
+        text-align: center;
+}

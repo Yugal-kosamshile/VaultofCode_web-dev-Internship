@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #76885B, #EEEEEE, #76885B); /* Gradient background */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #3f5026; /* Olive green color */
+}
+
+.internship {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #EEEEEE; /* Box background color */
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: all 0.3s ease;
+}
+
+.internship:hover {
+    transform: translateY(-5px); /* Hover effect */
+}
+
+.internship h2 {
+    margin-top: 0;
+    color: #435a21; /* Olive green color */
+}
+
+.internship ul {
+    list-style: none;
+    padding: 0;
+}
+
+.internship li {
+    margin-bottom: 10px;
+    color: #333; /* Dark gray color */
+    list-style-type: disc; /* Use circle bullets */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #435a21; /* Olive green color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure proper display */
+}
+
+.btn:hover {
+    background-color: #577047; /* Darker olive green color on hover */
+}
