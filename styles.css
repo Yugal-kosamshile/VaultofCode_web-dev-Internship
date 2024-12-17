@@ -1,0 +1,91 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.task {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.task h2 a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.task h2 a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+.task p, .task ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.task ul {
+    padding-left: 20px;
+}
+.presentation{
+    color: #333;
+    text-decoration: none;
+}
+.presentation:hover{
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
